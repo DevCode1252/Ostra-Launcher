@@ -1,7 +1,7 @@
 {
     "name": "Ostra-Launcher",
     "preductname": "Ostra Launcher",
-    "version": "3.5.2",
+    "version": "3.5.3",
     "description": "Launcher Mincraft pour le serveur Ostra",
     "main": "src/app.js",
     "author": {
