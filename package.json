@@ -1,7 +1,7 @@
 {
     "name": "Ostra-Launcher",
     "preductname": "Ostra Launcher",
-    "version": "2.1.3",
+    "version": "3.5.2",
     "description": "Launcher Mincraft pour le serveur Ostra",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/Ostra-Launcher/refs/heads/master/logo.jpg"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/DevCode1252/Ostra-Launcher.git"
     }
 }
