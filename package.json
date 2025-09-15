@@ -1,7 +1,7 @@
 {
     "name": "Ostra-Launcher",
     "preductname": "Ostra Launcher",
-    "version": "3.5.4",
+    "version": "3.5.5",
     "description": "Launcher Mincraft pour le serveur Ostra",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/Ostra-Launcher/refs/heads/master/logo.jpg"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/DevCode1252/Ostra-Launcher/refs/heads/master/image.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
